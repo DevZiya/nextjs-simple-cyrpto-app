@@ -1,0 +1,25 @@
+.coin_serach {
+  margin-bottom: 64px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+
+  .coin_input {
+    background-color: #222531;
+    color: #e2e2e2;
+    border: none;
+    padding: 16px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    outline: none;
+    height: 100%;
+    width: 100%;
+
+    &::placeholder {
+      color: #e2e2e2;
+    }
+  }
+}
